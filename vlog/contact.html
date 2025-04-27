@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Almadro</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <section id="contact-header">
+        <div class="container">
+            <nav>
+                <div class="logo"><h1>Living in the IT Era</h1></div>
+                <ul class="nav-links">
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                </ul>
+                <div class="menu-btn"><img src="./img/menu.svg" alt=""></div>
+            </nav>
+
+            <div class="contact-content">
+                <h1>CONTACT US</h1>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact-me" class="container">
+        <form action="#">
+            <h1>Get In Touch</h1>
+
+            <div class="inputsWrapper">
+                <input type="text" placeholder="Your Name">
+                <input type="text" placeholder="Phone Number">
+                <input type="email" name="" id="" placeholder="Email">
+                <textarea name="message" id="" cols="30" rows="10"></textarea>
+                <button class="primary-btn">SEND NOW</button>
+            </div>
+        </form>
+
+        <div class="address">
+            <h1>Talk to us</h1>
+
+            <div class="detailsWrapper">
+                <div class="details">
+                    <img src="./img/email.png" alt="">
+                    <div class="text">
+                        <h6>EMAIL</h6>
+                        <p>irahmichelle@email.com</p>
+                    </div>
+                </div>
+                <div class="details">
+                    <img src="./img/phone.png" alt="">
+                    <div class="text">
+                        <h6>PHONE NUMBER</h6>
+                        <p>+639123456789</p>
+                    </div>
+                </div>
+                <div class="details">
+                    <img src="./img/location.png" alt="">
+                    <div class="text">
+                        <h6>ADDRESS</h6>
+                        <p>Sitio Rawis, Brgy. Looc, <br> cabucgayan, biliran</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="followMeWrapper">
+                <h3>Follow Me</h3>
+                <ul class="socialLinks">
+                    <li><a href="https://www.facebook.com/irah.michelle"> <img src="./img/facebook.png" alt=""></a></li>
+                    <li><img src="./img/linkedin.png" alt=""></a></li>
+                    <li> <img src="./img/video.png" alt=""></a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <footer class="container">
+        <ul class="footerlinks">
+            <P>Irah Michelle Igano BSTM-3D</P>
+        </ul>
+        <h1 class="logo">ALMADRO</h1>
+        <p>@2025 Almadro. All right reserved.</p>
+    </footer>
+
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navLinks = document.querySelector('.nav-links')
+
+        menuBtn.addEventListener('click', function(){
+            navLinks.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
